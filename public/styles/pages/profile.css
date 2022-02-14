@@ -1,0 +1,66 @@
+#page-profile .page-header ~ .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#form-profile {
+	width: 100%;
+}
+.input-wrapper {
+	width: 100%;
+}
+
+aside.card {
+	background: var(--color-card-background);
+	color: var(--color-card-title);
+
+	border: 1px solid #e1e3e6;
+	border-radius: 0.313rem;
+
+	width: 22rem;
+
+	text-align: center;
+
+	padding: 3.875rem 4.625rem;
+
+	margin: 2rem auto;
+}
+
+aside img {
+	border-radius: 50%;
+
+	border: 0.25rem var(--color-secondary) solid;
+
+	width: 11.25rem;
+	height: 11.25rem;
+
+	margin-bottom: 1.5rem;
+}
+
+aside h2 {
+	font-family: IBM Plex Sans;
+	font-weight: 600;
+	font-size: 1.75rem;
+	line-height: 1.875rem;
+
+	margin-bottom: 3.875rem;
+}
+
+aside p {
+	margin-bottom: 1.75rem;
+
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+}
+
+@media (min-width: 1024px) {
+	#form-profile {
+		width: 62%;
+	}
+
+	aside.card {
+		margin: 0;
+	}
+}

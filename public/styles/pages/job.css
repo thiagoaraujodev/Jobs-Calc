@@ -1,0 +1,51 @@
+#form-job {
+	width: 100%;
+}
+.job {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.input-wrapper {
+	width: 100%;
+}
+aside.card {
+	width: 22rem;
+	margin: 2rem auto;
+	padding: 2.5rem 3.375rem;
+	text-align: center;
+}
+
+aside > img {
+	margin-bottom: 1.5rem;
+}
+
+aside p {
+	margin-bottom: 1.75rem;
+
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.625rem;
+}
+
+aside .button img {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+aside .button + .button {
+	padding: 0;
+	width: 3rem;
+	height: 3rem;
+}
+
+@media (min-width: 1024px) {
+	#form-job {
+		width: 62%;
+	}
+
+	aside.card {
+		margin: 0;
+	}
+}
